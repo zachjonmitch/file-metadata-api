@@ -1,18 +1,12 @@
+# File Metadata API
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Upload and display file data in JSON
 
+## User stories:
 
-Hi there! Welcome to Cloud9 IDE!
+   1. I can submit a FormData object that includes a file upload
+   2. When I submit something, I will receive the file size in bytes within the JSON response
+   
+## Helpful Links:
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+   https://www.npmjs.com/package/multer
